@@ -1,15 +1,38 @@
-# Cryptocurrency Arbitrage Application
+# Cryptocurrency Arbitrage Notebook
 ## Description
-@TODO
+The Cryptocurrency Arbitrage notebook provides an example of how one can use Jupyter and Python to perform an arbitrage analysis based on historical Bitcoin trade data from two cryptocurrency exchanges, Bitstamp and Coinbase.  
+
+The notebook is divided into the following phases: 
+
+- **Collection** - In this phase, the historical Bitcoin trade data is imported via csv files that are exported from Bitstamp and Coinbase.
+- **Preparation** - In this phase, the Bitcoin trade data is cleansed and prepared for analysis.   All missing data is removed, all '$' characters under the 'Close' column are removed, the 'Close' column is converted to float datatype and any duplicate data is removed.  
+- **Analysis** - In the last phase, we analyze and calculate arbitrage profits for different periods to see if there are any opportunities for arbitrage.   
 
 ## Technologies
-@TODO
+This example uses the following technologies: 
+
+- **pathlib** - This library is used to determine the path to the daily_rate_sheet.csv and the path to save the qualifying_loans.csv to. Please see [pathlib documentation](https://docs.python.org/3/library/pathlib.html) for more information.
+- **csv** - This library is used to read and write csv files. Please see [csv documentation](https://docs.python.org/3/library/csv.html) for more information.
+- **Jupyter** - Jupyter is a web-based interactive development environment for data science and analysis.   Please see Please see [Jupyter documentation](https://jupyter.org/) for more information.
+- **pandas** - pandas is a software library written for the Python programming language for data manipulation and analysis.  Please see [pandas documentation](https://pandas.pydata.org/) for more information.
 
 ## Installation
-@TODO
+The `pathlib` and `csv` libraries are already installed with Python 3.7.
+
+In order to use the Cryptocurrency Arbitrage notebook, you will need to install `Jupyter` and `pandas`. Below are the instructions for installing each required library.
+
+### Installing Jupyter
+@TODO 
+
+### Installing pandas
+@TODO 
 
 ## Usage
-@TODO
+### Launching the Cryptocurrency Arbitrage Notebook
+@TODO 
+
+### Running the Calculations
+@TODO 
 
 ## Contributors
 This sample application was authored by:
