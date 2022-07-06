@@ -14,7 +14,7 @@ The notebook is divided into the following phases:
 
 This example uses the following technologies:
 
-- **pathlib** - This library is used to determine the path to the daily_rate_sheet.csv and the path to save the qualifying_loans.csv to. Please see [pathlib documentation](https://docs.python.org/3/library/pathlib.html) for more information.
+- **pathlib** - This library is used to provides classes for filesystem paths. Please see [pathlib documentation](https://docs.python.org/3/library/pathlib.html) for more information.
 - **csv** - This library is used to read and write csv files. Please see [csv documentation](https://docs.python.org/3/library/csv.html) for more information.
 - **Jupyter** - Jupyter is a web-based interactive development environment for data science and analysis. Please see [Jupyter documentation](https://jupyter.org/) for more information.
 - **pandas** - pandas is a software library written for the Python programming language for data manipulation and analysis. Please see [pandas documentation](https://pandas.pydata.org/) for more information.
