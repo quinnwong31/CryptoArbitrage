@@ -64,6 +64,15 @@ To run the calculations in the Cryptocurrency Arbitrage Notebook, perform the fo
 
 ![Run_Notebook](/images/jupyter_run_notebook.jpg)
 
+3. Exceute Collection Phase. In this phase, the historical Bitcoin trade data is imported via csv files that are exported from Bitstamp and Coinbase.
+   [Collect](/images/jupyter_collect.jpg)
+
+4. Execute Preparation Phase. In this phase, the Bitcoin trade data is cleansed and prepared for analysis. All missing data is removed, all '$' characters under the 'Close' column are removed, the 'Close' column is converted to float datatype and any duplicate data is removed.
+   [Prepare](/images/jupyter_prepare.jpg)
+
+5. Execute Analysis Phase. In the last phase, we analyze and calculate arbitrage profits for different periods to see if there are any opportunities for arbitrage.
+   [Analyze](/images/jupyter_analyze.jpg)
+
 ## Contributors
 
 This sample application was authored by:
