@@ -56,7 +56,13 @@ To launch the Cryptocurrency Arbitrage Notebook, perform the following steps:
 
 To run the calculations in the Cryptocurrency Arbitrage Notebook, perform the following steps:
 
-TODO.
+1. Click on `crypto_arbitrage.ipynb` in the left navigation panel. This will load the notebook in Jupyter.
+
+![Click_Notebook](/images/jupyter_click_notebook.jpg)
+
+2. Click on the 'Run' button to execute each cell. This will execute the code in each cell and display the results.
+
+![Run_Notebook](/images/jupyter_run_notebook.jpg)
 
 ## Contributors
 
